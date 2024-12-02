@@ -22,7 +22,7 @@ export default function Home() {
 				/>
 			</motion.div>
 			<div
-				className={`w-full overflow-y-auto flex flex-col gap-4 md:gap-6 xl:gap-8  max-h-[70vh] p-12 md:p-16 h-full`}
+				className={`w-full overflow-y-auto flex flex-col gap-12 xl:gap-20  max-h-[70vh] p-12 md:p-16 h-full`}
 			>
 				<motion.div
 					initial={{ opacity: 0, y: 100 }}
@@ -31,7 +31,7 @@ export default function Home() {
 					className="flex flex-row  gap-4"
 					style={{ direction: "rtl" }}
 				>
-					<div className="w-8 h-full bg-primary" />
+					<div className="min-w-[8px] h-full bg-primary" />
 					<div className="flex flex-col">
 						<div>
 							<p className="font-semibold text-xl mb-2">
@@ -58,7 +58,7 @@ export default function Home() {
 					className="flex flex-row  gap-4"
 					style={{ direction: "rtl" }}
 				>
-					<div className="w-8 h-full bg-primary" />
+					<div className="min-w-[8px] h-full bg-primary" />
 					<div className="flex flex-col">
 						<p className="font-semibold text-xl">שלא נצא בורים – הפרויקט</p>
 						<p>
@@ -79,7 +79,7 @@ export default function Home() {
 					className="flex flex-row  gap-4"
 					style={{ direction: "rtl" }}
 				>
-					<div className="w-8 h-full bg-primary" />
+					<div className="min-w-[8px] h-full bg-primary" />
 					<div className="flex flex-col">
 						<p className="font-semibold text-xl">צוות חותם</p>
 						<p>
