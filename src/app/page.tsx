@@ -72,7 +72,7 @@ export default function Home() {
 						</p>
 					</div>
 				</motion.div>
-				<motion.div
+				{/* <motion.div
 					initial={{ opacity: 0, y: 100 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.3, delay: 0.3, type: "spring" }}
@@ -91,7 +91,7 @@ export default function Home() {
 							הברקוד, ועל שאר הנקודות בארץ, ובכך להכיר את אמיר ואת דרכו.
 						</p>
 					</div>
-				</motion.div>
+				</motion.div> */}
 			</div>
 		</div>
 	);
